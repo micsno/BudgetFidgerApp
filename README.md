@@ -1,5 +1,4 @@
 # Budget Manager
-This project is a practical work for the JAMK programming course by Tomi Kouvala - AD2307.
 
 The Budget Manager is a Python script designed to help users manage their budget entries. It allows users to add income and expense entries, view summaries of their finances, save entries to a file (budget.json), load entries from a file, and plot a summary of expenses and incomes by category using matplotlib.
 
@@ -18,7 +17,7 @@ The Budget Manager is a Python script designed to help users manage their budget
 1. Clone Repository: Clone the repository to your local machine:
 
     ```bash
-    git clone https://gitlab.labranet.jamk.fi/AD2307/harjoitustyoe_ad2307_ttc2030.git
+    git clone https://github.com/micsno/BudgetManager.git
     ```
 
 2. Install Dependencies: Make sure you have Python 3 installed. Install matplotlib if not already installed:
