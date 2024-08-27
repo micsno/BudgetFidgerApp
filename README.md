@@ -2,6 +2,8 @@
 
 BudgetFidger is a user-friendly budget management tool designed to help you efficiently track your income and expenses. It offers visual summaries of your financial situation and supports multiple languages, including Finnish and English.
 
+![Screenshot of BudgetFidger](budgetfidger.png)
+
 ## Features
 
 - Track Income and Expenses: Easily log your financial transactions and categorize them.
@@ -20,7 +22,7 @@ Clone the Repository:
 ```bash
 git clone https://github.com/micsno/BudgetFidgerApp.git
  ```
- 
+
 2. Navigate to the Project Directory:
 
  ```bash
