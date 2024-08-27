@@ -1,49 +1,52 @@
-# Budget Manager
+# BudgetFidger
 
-The Budget Manager is a Python script designed to help users manage their budget entries. It allows users to add income and expense entries, view summaries of their finances, save entries to a file (budget.json), load entries from a file, and plot a summary of expenses and incomes by category using matplotlib.
+BudgetFidger is a user-friendly budget management tool designed to help you efficiently track your income and expenses. It offers visual summaries of your financial situation and supports multiple languages, including Finnish and English.
 
 ## Features
 
-- Add Entry: Add income or expense entries with amount, category, and date.
-- View Summary: View total income, total expense, and balance.
-- Category Summary: View total amounts grouped by category.
-- Save to File: Save all entries to a JSON file (budget.json).
-- Load from File: Load entries from budget.json.
-- Plot Summary: Plot a bar chart showing expenses and incomes by category.
-- Command-Line Interface: Simple command-line interface for interaction.
+- Track Income and Expenses: Easily log your financial transactions and categorize them.
+- Visual Summaries: View clear and concise summaries of your financial status.
+- Multi-language Support: Available in Finnish and English to accommodate diverse users.
+- User-Friendly Interface: Simple and intuitive design for easy navigation.
 
 ## Installation
 
+To install and run BudgetFidger, follow these steps:
+
+Clone the Repository:
+
 1. Clone Repository: Clone the repository to your local machine:
 
-    ```bash
-    git clone https://github.com/micsno/BudgetManager.git
-    ```
+```bash
+git clone https://github.com/micsno/BudgetFidgerApp.git
+ ```
+2. 
+ ```bash
+cd BudgetFidger
+```
 
-2. Install Dependencies: Make sure you have Python 3 installed. Install matplotlib if not already installed:
+3. Install Dependencies: Make sure you have Python 3 installed. Install matplotlib if not already installed:
 
-    ```bash
-    pip install matplotlib
-    ```
+```bash
+pip install -r requirements.txt
+```
+
+4. Run the Application:
+
+```bash
+python BudgetFidger.py
+```
 
 ## Usage
+- Add Entries: Use the application to input your income and expenses.
+- View Summary: Access the summary to see your total income, expenses, and balance.
+- Switch Languages: Choose between Finnish and English from the language menu.
 
-1. Run the Script: Run the script budget_manager.py using Python:
+## Contributing
+Contributions are welcome! Please fork the repository and submit a pull request with your changes. For bug reports and feature requests, open an issue on the GitHub repository.
 
-    ```bash
-    python budget_manager.py
-    ```
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-    Options Available:
-    - Enter 1 to add income.
-    - Enter 2 to add expense.
-    - Enter 3 to view summary.
-    - Enter 4 to view category summary.
-    - Enter 5 to save entries to budget.json.
-    - Enter 6 to load entries from budget.json.
-    - Enter 7 to plot summary (requires matplotlib).
-    - Enter 8 to exit the program.
-
-2. File Operations:
-    - Entries are saved to budget.json in the same directory as budget_manager.py.
-    - Make sure you have write permissions for the directory where budget_manager.py resides.
+## Contact
+For questions or feedback, please contact [micsno@pm.me](micsno@pm.me).
