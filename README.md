@@ -20,7 +20,9 @@ Clone the Repository:
 ```bash
 git clone https://github.com/micsno/BudgetFidgerApp.git
  ```
-2. 
+ 
+2. Navigate to the Project Directory:
+
  ```bash
 cd BudgetFidger
 ```
